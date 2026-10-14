@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js & Build Outputs
+.next/
+out/
+build/
+coverage/
+
+# Hardhat & Smart Contracts
+cache/
+artifacts/
+typechain-types/
+
+# Environment Files - STRICTLY IGNORED
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Keystores, Certificates, and Private Keys
+*.pem
+*.key
+*.keystore
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript build info
+tsconfig.tsbuildinfo
+
+# Unrelated prototypes
+nirmaya-project/
